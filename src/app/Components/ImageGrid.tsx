@@ -209,7 +209,6 @@ const ImageGrid: React.FC<ImageGridProps> = ({
           }}
         >
           {images.map((image, index) => (
-            <>
               <div
                 key={image.id}
                 style={{
@@ -330,7 +329,6 @@ const ImageGrid: React.FC<ImageGridProps> = ({
                   </div>
                 </div>
               </div>
-            </>
           ))}
         </div>
 

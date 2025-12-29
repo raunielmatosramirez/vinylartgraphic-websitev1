@@ -33,7 +33,7 @@ const CustomizableProduct = () => {
             CUATOMIZABLE PRODUCTS
           </h3>
           <Link
-            href='/services/promo-items/'
+            href='/services/promotional-products/'
             className='text-white text-[12px] md:text-[16px] mb-5 text-end underline hover:no-underline transition-all mt-[10px] md:mt-[30px] duration-300 inline-block  underline-offset-3'
           >
             SEE MORE...

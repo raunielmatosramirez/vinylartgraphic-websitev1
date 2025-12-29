@@ -56,9 +56,21 @@ const Footer = () => {
             />
             <div className='block md:flex'>
               <p className='text-white text-[12px] mr-1.5 lg:text-[12px]'>
-                (786) 532-7005</p>
+                (786) 532-7005
+              </p>
+            </div>
+          </div>
+          <div className='flex items-center gap-2 mb-1'>
+            <Image
+              src='/TELEFONOOFICINAICON.svg'
+              alt='Icono 1'
+              width={16}
+              height={16}
+              className='w-4 h-4'
+            />
+            <div className='block md:flex'>
               <p className='text-white text-[12px] lg:text-[12px]'>
-                <span className='hidden md:inline'>/</span>(305) 960-7677
+                (305) 960-7677
               </p>
             </div>
           </div>
@@ -98,7 +110,7 @@ const Footer = () => {
               className='w-4 h-4'
             />
             <p className='text-white text-[12px] lg:text-[12px]'>
-              Monday – Friday 
+              Monday – Friday
             </p>
           </div>
 

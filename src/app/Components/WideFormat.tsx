@@ -27,7 +27,7 @@ const WideFormat = () => {
             {/* Learn More */}
             <div className='mt-4 md:mt-66'>
               <Link
-                href='/services/wide-format-signs-and-banners/'
+                href='/services/wide-format-prints/'
                 className='text-white text-[12px] md:text-[16px] underline hover:no-underline transition-all duration-300 inline-block underline-offset-3'
               >
                 SEE MORE...
