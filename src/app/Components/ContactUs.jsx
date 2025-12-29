@@ -174,7 +174,7 @@ const ContactUs = () => {
           </div>
           <div className='flex items-center justify-center gap-2 p-2'>
             <Image
-              src='/images-footer/CALENDARIO ICON.svg'
+              src='/images-footer/CALENDARIOICON.svg'
               alt='email'
               width={20}
               height={20}

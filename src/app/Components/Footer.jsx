@@ -12,7 +12,7 @@ const Footer = () => {
           style={{
             width: "150px",
             display: "flex",
-            alignItems: "center",
+            alignItems: "center", 
             justifyContent: "center",
           }}
         >
@@ -103,7 +103,7 @@ const Footer = () => {
 
           <div className='flex items-center gap-2 mb-1'>
             <Image
-              src='/images-footer/CALENDARIO ICON.svg'
+              src='/images-footer/CALENDARIOICON.svg'
               alt='Icono 4'
               width={16}
               height={16}
