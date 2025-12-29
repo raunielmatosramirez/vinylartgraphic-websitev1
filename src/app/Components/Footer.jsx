@@ -116,7 +116,7 @@ const Footer = () => {
 
           <div className='flex items-center gap-2 '>
             <Image
-              src='/RELOJ ICON.svg'
+              src='/RELOJICON.svg'
               alt='Icono 5'
               width={16}
               height={16}
