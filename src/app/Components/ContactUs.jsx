@@ -138,7 +138,7 @@ const ContactUs = () => {
         <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
           <div className='flex items-center justify-center gap-1 p-2'>
             <Image
-              src='/images-footer/CELLICON.svg'
+              src='/CELLICON.svg'
               alt='Icono 1'
               width={20}
               height={20}
@@ -150,7 +150,7 @@ const ContactUs = () => {
           </div>
           <div className='flex items-center justify-center gap-2 p-2'>
             <Image
-              src='/images-footer/EMAILICON.svg'
+              src='/EMAILICON.svg'
               alt='Icono 2'
               width={20}
               height={20}
@@ -162,7 +162,7 @@ const ContactUs = () => {
           </div>
           <div className='flex items-center justify-center gap-2 p-2 md:col-span-2'>
             <Image
-              src='/images-footer/UBICACIÓNICON.svg'
+              src='/UBICACIoNICON.svg'
               alt='ubication'
               width={20}
               height={20}
@@ -174,7 +174,7 @@ const ContactUs = () => {
           </div>
           <div className='flex items-center justify-center gap-2 p-2'>
             <Image
-              src='/images-footer/CALENDARIOICON.svg'
+              src='/CALENDARIOICON.svg'
               alt='email'
               width={20}
               height={20}
@@ -186,7 +186,7 @@ const ContactUs = () => {
           </div>
           <div className='flex items-center justify-center gap-2 p-2'>
             <Image
-              src='/images-footer/RELOJICON.svg'
+              src='/RELOJICON.svg'
               alt='clock'
               width={20}
               height={20}

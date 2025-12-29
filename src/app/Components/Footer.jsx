@@ -48,7 +48,7 @@ const Footer = () => {
           <h2 className='text-[#FFFF00] text-[14px] bold'>CONTACT INFO</h2>
           <div className='flex items-center gap-2 mb-1'>
             <Image
-              src='/images-footer/CELLICON.svg'
+              src='/CELLICON.svg'
               alt='Icono 1'
               width={16}
               height={16}
@@ -77,7 +77,7 @@ const Footer = () => {
 
           <div className='flex items-center gap-2 mb-1 '>
             <Image
-              src='/images-footer/EMAILICON.svg'
+              src='/EMAILICON.svg'
               alt='Icono 2'
               width={16}
               height={16}
@@ -90,7 +90,7 @@ const Footer = () => {
 
           <div className='flex items-center gap-2 mb-1'>
             <Image
-              src='/images-footer/UBICACIÓNICON.svg'
+              src='/UBICACIoNICON.svg'
               alt='Icono 3'
               width={16}
               height={16}
@@ -103,7 +103,7 @@ const Footer = () => {
 
           <div className='flex items-center gap-2 mb-1'>
             <Image
-              src='/images-footer/CALENDARIOICON.svg'
+              src='/CALENDARIOICON.svg'
               alt='Icono 4'
               width={16}
               height={16}
@@ -116,7 +116,7 @@ const Footer = () => {
 
           <div className='flex items-center gap-2 '>
             <Image
-              src='/images-footer/RELOJICON.svg'
+              src='/RELOJ ICON.svg'
               alt='Icono 5'
               width={16}
               height={16}
