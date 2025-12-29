@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   
-  // 🔥 AÑADE ESTO - Configuración webpack para Resend
+  // Configuración webpack para excluir Resend del cliente
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.alias = {
@@ -22,12 +22,8 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
   
-  // eslint va dentro de experimental
-  experimental: {
-    eslint: {
-      ignoreDuringBuilds: false,
-    },
-  },
+  // ESLint se maneja de otra forma ahora
+  // Si necesitas ignorar errores de ESLint en build, hazlo en package.json
   
   async headers() {
     return [
