@@ -21,11 +21,11 @@ const PostCardsPricingInline: React.FC = () => {
       title: "Post cards (4x6 inch)",
       hasTwoColumns: true,
       rows: [
-        { quantity: 250, price_4_0: "120.00", price_4_4: "120.00" },
-        { quantity: 500, price_4_0: "150.00", price_4_4: "150.00" },
-        { quantity: 1000, price_4_0: "190.00", price_4_4: "190.00" },
-        { quantity: 2500, price_4_0: "250.00", price_4_4: "250.00" },
-        { quantity: 5000, price_4_0: "300.00", price_4_4: "300.00" },
+        { quantity: 250, price_4_4: "120.00" },
+        { quantity: 500, price_4_4: "150.00" },
+        { quantity: 1000, price_4_4: "190.00" },
+        { quantity: 2500, price_4_4: "250.00" },
+        { quantity: 5000, price_4_4: "300.00" },
       ],
     },
   ];
@@ -45,18 +45,14 @@ const PostCardsPricingInline: React.FC = () => {
               <th className='px-1 py-0.5 text-left font-medium text-[#FFFF00]'>
                 {section.title}
               </th>
-              <th className='px-1 py-0.5 text-center font-medium'>4/0</th>
               <th className='px-1 py-0.5 text-center font-medium'>4/4</th>
             </tr>
           </thead>
           <tbody>
             {section.rows.map((row: PricingRow, rowIndex: number) => (
               <tr key={rowIndex}>
-                <td className='px-1 py-0.5 font-medium'>
+                <td className='px-1 py-0.5 text-start font-medium'>
                   {row.quantity.toLocaleString()}
-                </td>
-                <td className='px-1 py-0.5 text-start'>
-                  $ {formatPrice(row.price_4_0)}
                 </td>
                 <td className='px-1 py-0.5 text-start'>
                   $ {formatPrice(row.price_4_4)}

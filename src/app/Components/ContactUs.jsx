@@ -169,7 +169,7 @@ const ContactUs = () => {
               className='w-8 h-8'
             />
             <p className='text-white text-[16px] lg:text-[16px] text-center'>
-              4910 E 4 ave Hialeah, Florida 33013
+              4910 E 4 Ave Hialeah, Florida 33013
             </p>
           </div>
           <div className='flex items-center justify-center gap-2 p-2'>

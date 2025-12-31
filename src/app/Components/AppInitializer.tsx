@@ -42,7 +42,7 @@ export default function AppInitializer({
     const width = window.innerWidth;
     if (width < 768) return 3000;     // Móvil: 3 segundos
     if (width < 1024) return 5000;    // Tablet: 5 segundos
-    return 20000;                     // PC: 20 segundos
+    return 10000;                     // PC: 10 segundos
   };
 
   useEffect(() => {

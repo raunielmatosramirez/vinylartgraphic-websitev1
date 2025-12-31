@@ -79,7 +79,7 @@ const Gallery: React.FC = () => {
       <div className='flex flex-col items-center justify-center text-center'>
         <HeaderSection
           title='Our Complete Portfolio'
-          text='Explore all our vinyl art projects and custom designs'
+          text='Explore all our Vinyl Art projects and custom designs'
         />
       </div>
 
