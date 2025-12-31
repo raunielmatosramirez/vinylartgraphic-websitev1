@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import SocialNetworks from "./SocialNetworks";
+import { services } from "@/utils/servicesData";
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
           style={{
             width: "150px",
             display: "flex",
-            alignItems: "center", 
+            alignItems: "center",
             justifyContent: "center",
           }}
         >
@@ -32,17 +33,14 @@ const Footer = () => {
       <div className='flex flex-row items-start  z-8 justify-center w-full max-w-4xl px-1'>
         <div className='flex-1 text-end pr-4'>
           <h2 className='text-[#FFFF00] text-[14px]'>SERVICES</h2>
-          <p className='text-white text-[12px] lg:text-[12px] mb-1'>
-            PROMO ITEMS
-          </p>
-          <p className='text-white text-[12px] lg:text-[12px] mb-1'>PRINTS</p>
-          <p className='text-white text-[12px] lg:text-[12px] mb-1'>CAR WRAP</p>
-          <p className='text-white text-[12px] lg:text-[12px] mb-1'>
-            WIDE FORMAT, SIGNS & BANNERS
-          </p>
-          <p className='text-white text-[12px] lg:text-[12px] mb-1'>
-            CUSTOM SIGNS MARKERS
-          </p>
+          {services.map((service, index) => (
+            <p
+              key={index}
+              className='text-white text-[12px] lg:text-[12px] mb-1'
+            >
+              {service.service}
+            </p>
+          ))}
         </div>
         <div className='flex-1 text-start pl-4'>
           <h2 className='text-[#FFFF00] text-[14px] bold'>CONTACT INFO</h2>
