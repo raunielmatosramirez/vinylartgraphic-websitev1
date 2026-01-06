@@ -57,15 +57,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        style={{
-          height: "100vh",
-          width: "100%",
-          margin: 0,
-          background: "#151515",
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-        }}
+        
       >
         {/* Precargar el modelo inmediatamente */}
         <ScrollProvider>

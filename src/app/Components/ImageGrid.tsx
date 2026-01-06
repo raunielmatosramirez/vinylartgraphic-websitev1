@@ -134,34 +134,6 @@ const ImageGrid: React.FC<ImageGridProps> = ({
       </div>
     );
   }
-  const tecnicasArray = [
-    "CLEAR WINDOWS",
-    "CLEAR WINDOWS",
-    "FROSTED",
-    "FROSTED",
-    "FROSTED",
-    "FROSTED",
-    "FROSTED",
-    "OPAQUE WINDOW",
-    "OPAQUE WINDOW",
-    "OPAQUE WINDOW",
-    "OPAQUE WINDOW",
-    "OPAQUE WINDOW",
-    "OPAQUE WINDOW",
-    "OPAQUE WINDOW",
-    "PERFORATED",
-    "PERFORATED",
-    "PERFORATED",
-    "PERFORATED",
-    "PERFORATED",
-    "PERFORATED",
-    "PERFORATED",
-    "PERFORATED",
-    "PERFORATED",
-    "PERFORATED",
-    "PERFORATED",
-    "PERFORATED",
-  ];
 
   return (
     <section className='flex flex-col items-center justify-center text-center'>
@@ -209,126 +181,126 @@ const ImageGrid: React.FC<ImageGridProps> = ({
           }}
         >
           {images.map((image, index) => (
-              <div
-                key={image.id}
+            <div
+              key={image.id}
+              style={{
+                position: "relative",
+                borderRadius: "5px",
+                overflow: "hidden",
+                boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
+                cursor: "pointer",
+                height: isMobile ? "120px" : "200px",
+                gridColumn: `span ${anchos[index]}`,
+              }}
+              onClick={() => openModal(image)}
+              className='hover:shadow-lg transition-shadow duration-300'
+            >
+              {pathname === "/gallery-service/window-decals/" ? (
+                <h1 className='text-white text-start'>
+                  {
+                    [
+                      "CLEAR",
+                      "CLEAR",
+                      "FROSTED",
+                      "FROSTED",
+                      "FROSTED",
+                      "FROSTED",
+                      "FROSTED",
+                      "OPAQUE",
+                      "OPAQUE",
+                      "OPAQUE",
+                      "OPAQUE",
+                      "OPAQUE",
+                      "OPAQUE",
+                      "OPAQUE",
+                      "PERFORATED",
+                      "PERFORATED",
+                      "PERFORATED",
+                      "PERFORATED",
+                      "PERFORATED",
+                      "PERFORATED",
+                      "PERFORATED",
+                      "PERFORATED",
+                      "PERFORATED",
+                      "PERFORATED",
+                      "PERFORATED",
+                      "PERFORATED",
+                    ][index]
+                  }
+                </h1>
+              ) : null}
+              <Image
+                width={anchos[index] === 1 ? 200 : 400}
+                height={isMobile ? 120 : 200}
+                src={image.src}
+                alt={image.alt}
+                priority={index < 4}
                 style={{
-                  position: "relative",
-                  borderRadius: "5px",
-                  overflow: "hidden",
-                  boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
-                  cursor: "pointer",
-                  height: isMobile ? "120px" : "200px",
-                  gridColumn: `span ${anchos[index]}`,
+                  width: "100%",
+                  height: "100%",
+                  objectFit: "cover",
+                  transition: "transform 0.3s ease",
                 }}
-                onClick={() => openModal(image)}
-                className='hover:shadow-lg transition-shadow duration-300'
-              >
-                {pathname === "/gallery-service/window-decals/" ? (
-                  <h1 className='text-white text-start'>
-                    {
-                      [
-                        "CLEAR WINDOWS",
-                        "CLEAR WINDOWS",
-                        "FROSTED",
-                        "FROSTED",
-                        "FROSTED",
-                        "FROSTED",
-                        "FROSTED",
-                        "OPAQUE WINDOW",
-                        "OPAQUE WINDOW",
-                        "OPAQUE WINDOW",
-                        "OPAQUE WINDOW",
-                        "OPAQUE WINDOW",
-                        "OPAQUE WINDOW",
-                        "OPAQUE WINDOW",
-                        "PERFORATED",
-                        "PERFORATED",
-                        "PERFORATED",
-                        "PERFORATED",
-                        "PERFORATED",
-                        "PERFORATED",
-                        "PERFORATED",
-                        "PERFORATED",
-                        "PERFORATED",
-                        "PERFORATED",
-                        "PERFORATED",
-                        "PERFORATED",
-                      ][index]
-                    }
-                  </h1>
-                ) : null}
-                <Image
-                  width={anchos[index] === 1 ? 200 : 400}
-                  height={isMobile ? 120 : 200}
-                  src={image.src}
-                  alt={image.alt}
-                  priority={index < 4}
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    objectFit: "cover",
-                    transition: "transform 0.3s ease",
-                  }}
-                  onMouseOver={(e) => {
-                    e.currentTarget.style.transform = "scale(1.05)";
-                  }}
-                  onMouseOut={(e) => {
-                    e.currentTarget.style.transform = "scale(1)";
-                  }}
-                />
+                onMouseOver={(e) => {
+                  e.currentTarget.style.transform = "scale(1.05)";
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.transform = "scale(1)";
+                }}
+              />
 
+              <div
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  right: 0,
+                  bottom: 0,
+                  backgroundColor: "rgba(0, 0, 0, 0.8)",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  opacity: 0,
+                  transition: "opacity 0.3s ease",
+                }}
+                className='hover:opacity-100'
+                onMouseOver={(e) => {
+                  e.currentTarget.style.opacity = "1";
+                }}
+                onMouseOut={(e) => {
+                  e.currentTarget.style.opacity = "0";
+                }}
+              >
                 <div
                   style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    right: 0,
-                    bottom: 0,
-                    backgroundColor: "rgba(0, 0, 0, 0.8)",
+                    background: "rgba(255, 255, 255, 0.8)",
+                    borderRadius: "10%",
+                    width: "30px",
+                    height: "30px",
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    opacity: 0,
-                    transition: "opacity 0.3s ease",
                   }}
-                  className='hover:opacity-100'
-                  onMouseOver={(e) => {
-                    e.currentTarget.style.opacity = "1";
-                  }}
-                  onMouseOut={(e) => {
-                    e.currentTarget.style.opacity = "0";
-                  }}
+                  className='sm:w-10 sm:h-10'
                 >
-                  <div
-                    style={{
-                      background: "rgba(255, 255, 255, 0.8)",
-                      borderRadius: "10%",
-                      width: "30px",
-                      height: "30px",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                    }}
-                    className='sm:w-10 sm:h-10'
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    width='16'
+                    height='16'
+                    viewBox='0 0 24 24'
+                    fill='none'
+                    stroke='currentColor'
+                    strokeWidth='2'
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    className='sm:w-5 sm:h-5'
                   >
-                    <svg
-                      xmlns='http://www.w3.org/2000/svg'
-                      width='16'
-                      height='16'
-                      viewBox='0 0 24 24'
-                      fill='none'
-                      stroke='currentColor'
-                      strokeWidth='2'
-                      strokeLinecap='round'
-                      strokeLinejoin='round'
-                      className='sm:w-5 sm:h-5'
-                    >
-                      <path d='M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z'></path>
-                      <circle cx='12' cy='12' r='3'></circle>
-                    </svg>
-                  </div>
+                    <path d='M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z'></path>
+                    <circle cx='12' cy='12' r='3'></circle>
+                  </svg>
                 </div>
               </div>
+            </div>
           ))}
         </div>
 

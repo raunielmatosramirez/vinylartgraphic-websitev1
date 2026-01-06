@@ -6,7 +6,6 @@ import AppInitializer from "./AppInitializer";
 import LionComponent from "./LionComponent";
 
 function ModelPreloader() {
-  console.log("Cargando el modelo...");
   useEffect(() => {
     useGLTF.preload("/lion-web.gltf");
     <LionComponent />;

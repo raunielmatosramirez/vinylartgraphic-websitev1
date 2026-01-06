@@ -34,6 +34,8 @@ export const services = [
           "/imagesservices/CUSTOMSIGNSMAKERS/CHANNELLETTER/IMG-20251115-WA0002.jpg",
           "/imagesservices/CUSTOMSIGNSMAKERS/CHANNELLETTER/IMG-20251201-WA0047.jpg",
           "/imagesservices/CUSTOMSIGNSMAKERS/CHANNELLETTER/IMG-20251201-WA0108.jpg",
+          "/imagesservices/CUSTOMSIGNSMAKERS/CHANNELLETTER/CHANNEL.jpg",
+
         ],
       },
       {
@@ -58,6 +60,8 @@ export const services = [
           "/imagesservices/CUSTOMSIGNSMAKERS/LIGHTBOXES/9.jpg",
           "/imagesservices/CUSTOMSIGNSMAKERS/LIGHTBOXES/10.jpg",
           "/imagesservices/CUSTOMSIGNSMAKERS/LIGHTBOXES/11.jpg",
+          "/imagesservices/CUSTOMSIGNSMAKERS/LIGHTBOXES/12.jpg",
+
         ],
       },
       {
@@ -76,6 +80,9 @@ export const services = [
           "/imagesservices/CUSTOMSIGNSMAKERS/NEONSIGNS/neon3.jpg",
           "/imagesservices/CUSTOMSIGNSMAKERS/NEONSIGNS/neon4.jpg",
           "/imagesservices/CUSTOMSIGNSMAKERS/NEONSIGNS/neon5.jpg",
+          "/imagesservices/CUSTOMSIGNSMAKERS/NEONSIGNS/neon6.jpg",
+          "/imagesservices/CUSTOMSIGNSMAKERS/NEONSIGNS/neon7.jpg",
+
         ],
       },
       {
@@ -193,6 +200,10 @@ export const services = [
           "/imagesservices/CARWRAP/PARTIALCARWRAP/27.jpg",
           "/imagesservices/CARWRAP/PARTIALCARWRAP/28.jpg",
           "/imagesservices/CARWRAP/PARTIALCARWRAP/29.jpg",
+          "/imagesservices/CARWRAP/PARTIALCARWRAP/30.jpg",
+          "/imagesservices/CARWRAP/PARTIALCARWRAP/31.jpg",
+          "/imagesservices/CARWRAP/PARTIALCARWRAP/32.jpg",
+
         ],
       },
       {
@@ -268,6 +279,12 @@ export const services = [
           "/imagesservices/PROMOTIONALPRODUCTS/T-SHIRTS/25.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/T-SHIRTS/26.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/T-SHIRTS/27.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/T-SHIRTS/28.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/T-SHIRTS/29.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/T-SHIRTS/30.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/T-SHIRTS/31.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/T-SHIRTS/32.jpg",
+
         ],
       },
       {
@@ -308,6 +325,8 @@ export const services = [
           "/imagesservices/PROMOTIONALPRODUCTS/KEYCHAIN/4.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/KEYCHAIN/5.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/KEYCHAIN/6.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/KEYCHAIN/7.jpg",
+
         ],
       },
       {
@@ -326,6 +345,9 @@ export const services = [
           "/imagesservices/PROMOTIONALPRODUCTS/ROLL-UP/3.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/ROLL-UP/4.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/ROLL-UP/5.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/ROLL-UP/6.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/ROLL-UP/7.jpg",
+
         ],
       },
       {
@@ -346,6 +368,7 @@ export const services = [
           "/imagesservices/PROMOTIONALPRODUCTS/CARMAGNET/5.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/CARMAGNET/6.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/CARMAGNET/7.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/CARMAGNET/8.jpg",
         ],
       },
       {
@@ -366,6 +389,9 @@ export const services = [
           "/imagesservices/PROMOTIONALPRODUCTS/A-FRAME/5.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/A-FRAME/6.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/A-FRAME/7.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/A-FRAME/8.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/A-FRAME/9.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/A-FRAME/10.jpg",
         ],
       },
       {
@@ -381,6 +407,8 @@ export const services = [
         gallery: [
           "/imagesservices/PROMOTIONALPRODUCTS/FLAGS/1.jpg",
           "/imagesservices/PROMOTIONALPRODUCTS/FLAGS/2.jpg",
+          "/imagesservices/PROMOTIONALPRODUCTS/FLAGS/3.jpg",
+
         ],
       },
     ],
@@ -443,6 +471,8 @@ export const services = [
           "/imagesservices/MARKETINGMATERIALS/FLYERSANDBROCHURES/1.jpg",
           "/imagesservices/MARKETINGMATERIALS/FLYERSANDBROCHURES/2.jpg",
           "/imagesservices/MARKETINGMATERIALS/FLYERSANDBROCHURES/3.jpg",
+          "/imagesservices/MARKETINGMATERIALS/FLYERSANDBROCHURES/4.jpg",
+
         ],
       },
       {
@@ -465,6 +495,9 @@ export const services = [
           "/imagesservices/MARKETINGMATERIALS/STICKERS/7.jpg",
           "/imagesservices/MARKETINGMATERIALS/STICKERS/8.jpg",
           "/imagesservices/MARKETINGMATERIALS/STICKERS/9.jpg",
+          "/imagesservices/MARKETINGMATERIALS/STICKERS/10.jpg",
+          "/imagesservices/MARKETINGMATERIALS/STICKERS/11.jpg",
+
         ],
       },
       {
@@ -481,6 +514,8 @@ export const services = [
           "/imagesservices/MARKETINGMATERIALS/INVOICE/1.jpg",
           "/imagesservices/MARKETINGMATERIALS/INVOICE/2.jpg",
           "/imagesservices/MARKETINGMATERIALS/INVOICE/3.jpg",
+          "/imagesservices/MARKETINGMATERIALS/INVOICE/4.jpg",
+
         ],
       },
       {
@@ -496,6 +531,9 @@ export const services = [
         gallery: [
           "/imagesservices/MARKETINGMATERIALS/YARDSIGNS/1.jpg",
           "/imagesservices/MARKETINGMATERIALS/YARDSIGNS/2.jpg",
+          "/imagesservices/MARKETINGMATERIALS/YARDSIGNS/3.jpg",
+          "/imagesservices/MARKETINGMATERIALS/YARDSIGNS/4.jpg",
+
         ],
       },
     ],
@@ -523,10 +561,13 @@ export const services = [
           "/imagesservices/WIDEFORMATPRINTS/ACRYLICPRINTS/5.jpg",
           "/imagesservices/WIDEFORMATPRINTS/ACRYLICPRINTS/6.jpg",
           "/imagesservices/WIDEFORMATPRINTS/ACRYLICPRINTS/7.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/ACRYLICPRINTS/8.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/ACRYLICPRINTS/9.jpg",
+
         ],
       },
       {
-        name: "BANNERS",
+        name: "BANNERS, ALUMINUM AND COROPLAST",
         image_url: "/imagesservices/WIDEFORMATPRINTS/BANNERS/1.jpg",
         description: "",
         benefits: [
@@ -548,6 +589,10 @@ export const services = [
           "/imagesservices/WIDEFORMATPRINTS/BANNERS/9.jpg",
           "/imagesservices/WIDEFORMATPRINTS/BANNERS/10.jpg",
           "/imagesservices/WIDEFORMATPRINTS/BANNERS/11.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/BANNERS/12.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/BANNERS/13.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/BANNERS/14.jpg",
+
         ],
       },
       {
@@ -620,6 +665,9 @@ export const services = [
           "/imagesservices/WIDEFORMATPRINTS/PVCPRINTS/3.jpg",
           "/imagesservices/WIDEFORMATPRINTS/PVCPRINTS/4.jpg",
           "/imagesservices/WIDEFORMATPRINTS/PVCPRINTS/5.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/PVCPRINTS/6.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/PVCPRINTS/7.jpg",
+
         ],
       },
       {
@@ -644,6 +692,25 @@ export const services = [
         ],
       },
       {
+        name: "VINYL",
+        image_url: "/imagesservices/WIDEFORMATPRINTS/VINYL/1.jpg",
+        description: "",
+        benefits: [
+          "Daylight Visibility: Transparent designs allow light in while displaying messages to outside viewers.",
+          "Increased Privacy: Frosted or patterned decals provide privacy while maintaining natural light.",
+          "Non-Obstructive Advertising: Promotes businesses without completely blocking window views.",
+          "UV Resistant: Specialized materials prevent fading from sun exposure.",
+          "Easy Installation & Removal: Professional application with clean removal options.",
+        ],
+        gallery: [
+          "/imagesservices/WIDEFORMATPRINTS/VINYL/1.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/VINYL/2.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/VINYL/3.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/VINYL/4.jpg",
+        
+        ],
+      },
+       {
         name: "WINDOW DECALS",
         image_url: "/imagesservices/WIDEFORMATPRINTS/WINDOWDECALS/1.jpg",
         description: "",

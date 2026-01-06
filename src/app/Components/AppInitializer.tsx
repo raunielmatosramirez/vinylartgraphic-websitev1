@@ -1,6 +1,5 @@
-// src/app/Components/AppInitializer.tsx
 "use client";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import Navbar from "./NavBar/NavBar";
 import Footer from "./Footer";
 import LoadingScreen from "./LoadingScreen";
@@ -25,27 +24,33 @@ interface AppInitializerProps {
   services: Service[];
   children: React.ReactNode;
 }
+
 export default function AppInitializer({
   services,
   children,
 }: AppInitializerProps) {
   const [isLoading, setIsLoading] = useState(true);
   const [loadingProgress, setLoadingProgress] = useState(0);
-    const pathname = usePathname();
+  const [hasWindow, setHasWindow] = useState(false);
+  const pathname = usePathname();
+
   useEffect(() => {
     // Reset scroll al cambiar de ruta
     window.scrollTo(0, 0);
   }, [pathname]);
 
-  // Detectar tamaño de pantalla simple
-  const getLoadingDuration = () => {
-    const width = window.innerWidth;
-    if (width < 768) return 3000;     // Móvil: 3 segundos
-    if (width < 1024) return 5000;    // Tablet: 5 segundos
-    return 10000;                     // PC: 10 segundos
-  };
-
   useEffect(() => {
+    // Marcar que window ya está disponible (cliente)
+    setHasWindow(true);
+    
+    // Solo ejecutar la lógica de carga en el cliente
+    const getLoadingDuration = () => {
+      const width = window.innerWidth;
+      if (width < 768) return 3000; // Móvil: 3 segundos
+      if (width < 1024) return 5000; // Tablet: 5 segundos
+      return 10000; // PC: 10 segundos
+    };
+
     const duration = getLoadingDuration();
     const interval = 50;
     const steps = duration / interval;
@@ -65,14 +70,24 @@ export default function AppInitializer({
     return () => clearInterval(timer);
   }, []);
 
-  if (isLoading) {
+  // Muestra el loading screen solo en cliente
+  if (isLoading && hasWindow) {
     return <LoadingScreen progress={loadingProgress} />;
+  }
+
+  // Durante SSR o antes de que window esté disponible, puedes mostrar algo minimal
+  if (!hasWindow) {
+    return (
+      <div className="fixed inset-0 bg-[#151515] flex items-center justify-center">
+        <div className="text-[#FFFF00]">Loading...</div>
+      </div>
+    );
   }
 
   return (
     <>
       <Navbar services={services} />
-      {children}
+      <main className="min-h-screen">{children}</main>
       <WhatsAppButton />
       <section
         id='footer'
