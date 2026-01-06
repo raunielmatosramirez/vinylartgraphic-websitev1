@@ -111,7 +111,6 @@ export const services = [
           "/imagesservices/CUSTOMSIGNSMAKERS/NONILLUMINATEDSIGNS/12.jpg",
           "/imagesservices/CUSTOMSIGNSMAKERS/NONILLUMINATEDSIGNS/13.jpg",
           "/imagesservices/CUSTOMSIGNSMAKERS/NONILLUMINATEDSIGNS/14.jpg",
-          "/imagesservices/CUSTOMSIGNSMAKERS/NONILLUMINATEDSIGNS/15.jpg",
 
         ],
       },
@@ -728,6 +727,7 @@ export const services = [
           "/imagesservices/WIDEFORMATPRINTS/WINDOWDECALS/4.jpg",
           "/imagesservices/WIDEFORMATPRINTS/WINDOWDECALS/5.jpg",
           "/imagesservices/WIDEFORMATPRINTS/WINDOWDECALS/6.jpg",
+          "/imagesservices/WIDEFORMATPRINTS/WINDOWDECALS/7.1.jpg",  
           "/imagesservices/WIDEFORMATPRINTS/WINDOWDECALS/7.jpg",
           "/imagesservices/WIDEFORMATPRINTS/WINDOWDECALS/8.jpg",
           "/imagesservices/WIDEFORMATPRINTS/WINDOWDECALS/9.jpg",

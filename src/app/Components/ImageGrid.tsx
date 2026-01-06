@@ -206,6 +206,7 @@ const ImageGrid: React.FC<ImageGridProps> = ({
                       "FROSTED",
                       "FROSTED",
                       "FROSTED",
+                      "FROSTED",
                       "OPAQUE",
                       "OPAQUE",
                       "OPAQUE",
