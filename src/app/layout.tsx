@@ -52,9 +52,10 @@ export default function RootLayout({
           title='Vinyl Art Graphic - Premium Signage & Printing Solutions'
           description='Professional vehicle wraps, custom signs, wide format printing, promotional items, and business graphics. Transform your brand with our premium visual solutions.'
           canonical='https://vinylartgraphic.com'
-          ogImage='https://vinylartgraphic.com/og-image.jpg'
+          ogImage='/public/icon.svg'
           structuredData={structuredData}
         />
+              <link rel="icon" href="../../public/LOGOVINYLART.svg" type="image/svg+xml" />
       </head>
       <body
         style={{
