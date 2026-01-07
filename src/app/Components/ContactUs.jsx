@@ -145,10 +145,22 @@ const ContactUs = () => {
               className='w-8 h-8'
             />
             <p className='text-white text-[16px] font-bold lg:text-[16px]'>
-              +1 (786) 532-7005
+              (786) 532-7005
             </p>
           </div>
-          <div className='flex items-center justify-center gap-2 p-2'>
+           <div className='flex items-center justify-center gap-1 p-2'>
+            <Image
+              src='/TELEFONOOFICINAICON.svg'
+              alt='Icono 1'
+              width={20}
+              height={20}
+              className='w-8 h-8'
+            />
+            <p className='text-white text-[16px] font-bold lg:text-[16px]'>
+              (305) 960-7677
+            </p>
+          </div>
+          <div className='flex items-center justify-center gap-2 p-2 md:col-span-2'>
             <Image
               src='/EMAILICON.svg'
               alt='Icono 2'
@@ -169,7 +181,7 @@ const ContactUs = () => {
               className='w-8 h-8'
             />
             <p className='text-white text-[16px] lg:text-[16px] text-center'>
-              4910 E 4 Ave Hialeah, Florida 33013
+              4910 E 4th Ave, Hialeah, FL 33013
             </p>
           </div>
           <div className='flex items-center justify-center gap-2 p-2'>
@@ -181,7 +193,7 @@ const ContactUs = () => {
               className='w-8 h-8'
             />
             <p className='text-white text-[16px] lg:text-[16px]'>
-              Weekdays: Open | Weekend: Closed
+             Monday – Friday
             </p>
           </div>
           <div className='flex items-center justify-center gap-2 p-2'>

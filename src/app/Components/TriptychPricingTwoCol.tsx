@@ -16,7 +16,7 @@ const TriptychPricingTwoCol: React.FC = () => {
             <thead>
               <tr>
                 <th className='px-1 py-0.5 text-left font-medium text-[#FFFF00]'>
-                  Triptych
+                  Flyers
                 </th>
                 <th className='px-1 py-0.5 text-center font-medium  '>Size</th>
                 <th className='px-1 py-0.5 text-center font-medium  '>Price</th>

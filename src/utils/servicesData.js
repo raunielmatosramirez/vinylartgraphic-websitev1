@@ -469,7 +469,6 @@ export const services = [
         gallery: [
           "/imagesservices/MARKETINGMATERIALS/FLYERSANDBROCHURES/1.jpg",
           "/imagesservices/MARKETINGMATERIALS/FLYERSANDBROCHURES/2.jpg",
-          "/imagesservices/MARKETINGMATERIALS/FLYERSANDBROCHURES/3.jpg",
           "/imagesservices/MARKETINGMATERIALS/FLYERSANDBROCHURES/4.jpg",
 
         ],

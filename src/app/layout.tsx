@@ -58,7 +58,7 @@ export default function RootLayout({
       </head>
       <body
         style={{
-          height: "100vh",
+          height: "100%",
           width: "100%",
           margin: 0,
           background: "#151515",
