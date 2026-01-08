@@ -15,44 +15,44 @@ interface ProductSection {
 }
 
 const BusinessCardsPricingExactImageCompact: React.FC = () => {
-  const pricingData: ProductSection[] = [
-    {
-      title: "Business cards",
-      hasTwoColumns: true,
-      rows: [
-        { quantity: 100, price_4_4: "50.00" },
-        { quantity: 500, price_4_0: "50.00", price_4_4: "70.00" },
-        { quantity: 1000, price_4_0: "70.00", price_4_4: "90.00" },
-        { quantity: 5000, price_4_0: "220.00", price_4_4: "220.00" },
-      ],
-    },
-    {
-      title: "Business cards bordes curves",
-      hasTwoColumns: true,
-      rows: [
-        { quantity: 500, price_4_0: "70.00", price_4_4: "90.00" },
-        { quantity: 1000, price_4_0: "90.00", price_4_4: "110.00" },
-        { quantity: 5000, price_4_0: "250.00", price_4_4: "250.00" },
-      ],
-    },
-    {
-      title: "Business cards UV",
-      hasTwoColumns: false,
-      rows: [
-        { quantity: 250, price_4_4: "160.00" },
-        { quantity: 500, price_4_4: "190.00" },
-        { quantity: 1000, price_4_4: "350.00" },
-      ],
-    },
-    {
-      title: "Business cards DORADAS",
-      hasTwoColumns: false,
-      rows: [
-        { quantity: 500, price_4_4: "250.00" },
-        { quantity: 1000, price_4_4: "420.00" },
-      ],
-    },
-  ];
+  // const pricingData: ProductSection[] = [
+  //   {
+  //     title: "Business cards",
+  //     hasTwoColumns: true,
+  //     rows: [
+  //       { quantity: 100, price_4_4: "50.00" },
+  //       { quantity: 500, price_4_0: "50.00", price_4_4: "70.00" },
+  //       { quantity: 1000, price_4_0: "70.00", price_4_4: "90.00" },
+  //       { quantity: 5000, price_4_0: "220.00", price_4_4: "220.00" },
+  //     ],
+  //   },
+  //   {
+  //     title: "Business cards bordes curves",
+  //     hasTwoColumns: true,
+  //     rows: [
+  //       { quantity: 500, price_4_0: "70.00", price_4_4: "90.00" },
+  //       { quantity: 1000, price_4_0: "90.00", price_4_4: "110.00" },
+  //       { quantity: 5000, price_4_0: "250.00", price_4_4: "250.00" },
+  //     ],
+  //   },
+  //   {
+  //     title: "Business cards-UV",
+  //     hasTwoColumns: false,
+  //     rows: [
+  //       { quantity: 250, price_4_4: "160.00" },
+  //       { quantity: 500, price_4_4: "190.00" },
+  //       { quantity: 1000, price_4_4: "350.00" },
+  //     ],
+  //   },
+  //   {
+  //     title: "Business cards DORADAS",
+  //     hasTwoColumns: false,
+  //     rows: [
+  //       { quantity: 500, price_4_4: "250.00" },
+  //       { quantity: 1000, price_4_4: "420.00" },
+  //     ],
+  //   },
+  // ];
 
   const formatPrice = (price: string | undefined): string => {
     if (!price) return "";
@@ -120,7 +120,7 @@ const BusinessCardsPricingExactImageCompact: React.FC = () => {
             <thead>
               <tr className=''>
                 <th className='px-2 py-2 text-left font-medium text-[#FFFF00] w-[200]'>
-                  Business cards bordes curves
+                  Business cards-CURVED EDGES
                 </th>
                 <th className='px-2 py-2 text-center font-medium w-[80px]'>4/0</th>
                 <th className='px-2 py-2 text-center font-medium w-[80px]'>4/4</th>
@@ -164,7 +164,7 @@ const BusinessCardsPricingExactImageCompact: React.FC = () => {
             <thead>
               <tr className=''>
                 <th className='px-2 py-2 text-left font-medium text-[#FFFF00] w-[200]'>
-                  Business cards UV
+                  Business cards-UV
                 </th>
                 <th className='px-2 py-2 text-center font-medium w-[80px]'>4/4</th>
                 <th className='px-2 py-2 text-center font-medium w-[80px] text-gray-400'>-</th>
@@ -202,7 +202,7 @@ const BusinessCardsPricingExactImageCompact: React.FC = () => {
             <thead>
               <tr className=''>
                 <th className='px-2 py-2 text-left font-medium text-[#FFFF00] w-[200]'>
-                  Business cards GOLDEN
+                  Business cards-GOLDEN
                 </th>
                 <th className='px-2 py-2 text-center font-medium w-[80px]'>4/4</th>
                 <th className='px-2 py-2 text-center font-medium w-[80px] text-gray-400'>-</th>

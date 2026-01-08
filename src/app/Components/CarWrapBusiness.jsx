@@ -40,7 +40,7 @@ const CarWrapBusiness = () => {
             href='/services/car-wrap/'
             className='text-white text-[12px] md:text-[16px] mb-5 text-start underline hover:no-underline transition-all mt-[10px] md:mt-[30px] duration-300 inline-block  underline-offset-3'
           >
-           SEE MORE...
+            SEE MORE...
           </Link>
         </div>
 
@@ -83,7 +83,7 @@ const CarWrapBusiness = () => {
     transition-all 
     duration-500 
     hover:shadow-[0_0_40px_rgba(255,0,204,0.4)]
-    ${!isPlaying ? 'group' : ''}
+    ${!isPlaying ? "group" : ""}
   `}
         >
           <video
@@ -100,7 +100,7 @@ const CarWrapBusiness = () => {
             loop
             preload='metadata'
             playsInline
-            poster='/video-poster.jpg'
+            poster='/48.jpg'
             aria-label='Video demostrativo de nuestros servicios'
             onPlay={handleVideoPlay}
             onPause={handleVideoPause}

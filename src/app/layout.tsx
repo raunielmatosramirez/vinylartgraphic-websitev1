@@ -1,10 +1,9 @@
-
 import "./globals.css";
 import { ScrollProvider } from "@/contex/ScrollContext";
 import AppInitializer from "./Components/AppInitializer";
 import ModelPreloader from "./Components/ModelPreloader";
 import SEO from "./Components/SEO";
-import { services } from '../../src/utils/servicesData';
+import { services } from "../../src/utils/servicesData";
 
 export interface Subservice {
   name: string;
@@ -24,8 +23,6 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
-
   // Datos estructurados para SEO
   const structuredData = {
     "@context": "https://schema.org",
@@ -55,7 +52,6 @@ export default function RootLayout({
           ogImage='/public/icon.svg'
           structuredData={structuredData}
         />
-              <link rel="icon" href="../../public/LOGOVINYLART.svg" type="image/svg+xml" />
       </head>
       <body
         style={{
@@ -71,7 +67,9 @@ export default function RootLayout({
         {/* Precargar el modelo inmediatamente */}
         <ScrollProvider>
           <ModelPreloader />
-          <AppInitializer services={services as Service[]}>{children}</AppInitializer>
+          <AppInitializer services={services as Service[]}>
+            {children}
+          </AppInitializer>
         </ScrollProvider>
       </body>
     </html>
